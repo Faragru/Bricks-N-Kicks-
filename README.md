@@ -1,6 +1,7 @@
 # Bricks N Kicks Store
 
-![Bricks N Kicks Store Logo](insert_logo_image_url_here)
+![Bricks N Kicks Store Logo][WhatsApp Image 2023-07-27 at 17 46 52](https://github.com/Faragru/Bricks-N-Kicks-/assets/94462670/fdcd0942-18b9-45a8-943f-552b9bab852a)
+
 
 Bricks N Kicks Store is the ultimate iOS app for sneakerheads and collectors. Discover, explore, and stay updated on the latest sneaker releases from top brands like Nike and Yeezy, all in one place.
 
