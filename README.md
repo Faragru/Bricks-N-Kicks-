@@ -22,8 +22,7 @@ Bricks N Kicks Store is the ultimate iOS app for sneakerheads and collectors. Di
 
 ## Screenshots
 
-![Screenshot 1](insert_screenshot_1_url_here)
-![Screenshot 2](insert_screenshot_2_url_here)
+![Simulator Screenshot - iPhone 11 Pro Max - 2023-08-07 at 15 17 14](https://github.com/Faragru/Bricks-N-Kicks-/assets/94462670/23bcc531-f78e-4d5d-aeb6-9d384bb83b92)
 
 ## Installation
 
