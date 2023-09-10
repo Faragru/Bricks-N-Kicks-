@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B146D76D2A79550500947873 /* SneakerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B146D76C2A79550500947873 /* SneakerCollectionViewCell.swift */; };
+		B146D76F2A79846B00947873 /* SneakerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B146D76E2A79846B00947873 /* SneakerDetailViewController.swift */; };
+		B15616D52A7A4FE400FA71F4 /* RandomSneakerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15616D42A7A4FE400FA71F4 /* RandomSneakerCollectionViewCell.swift */; };
+		B15DB4122A72CCAB00F27FDA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15DB4112A72CCAB00F27FDA /* HomeViewController.swift */; };
+		B15DB4182A72CD2900F27FDA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15DB4172A72CD2900F27FDA /* ProfileViewController.swift */; };
+		B1C06D7C2A82B20E000EBB37 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C06D7B2A82B20E000EBB37 /* ProductCollectionViewCell.swift */; };
+		B1C661AF2A77E5C600D0C56B /* SneakersAPI.json in Resources */ = {isa = PBXBuildFile; fileRef = B1C661AE2A77E5C600D0C56B /* SneakersAPI.json */; };
+		B1C661B12A77E76E00D0C56B /* Sneaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C661B02A77E76E00D0C56B /* Sneaker.swift */; };
+		B1C661B72A78127300D0C56B /* Crypto in Frameworks */ = {isa = PBXBuildFile; productRef = B1C661B62A78127300D0C56B /* Crypto */; };
 		B1CA99DC2A711480001A2C75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA99DB2A711480001A2C75 /* AppDelegate.swift */; };
 		B1CA99DE2A711480001A2C75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA99DD2A711480001A2C75 /* SceneDelegate.swift */; };
-		B1CA99E02A711480001A2C75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA99DF2A711480001A2C75 /* ViewController.swift */; };
 		B1CA99E32A711480001A2C75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1CA99E12A711480001A2C75 /* Main.storyboard */; };
 		B1CA99E52A711483001A2C75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1CA99E42A711483001A2C75 /* Assets.xcassets */; };
 		B1CA99E82A711483001A2C75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1CA99E62A711483001A2C75 /* LaunchScreen.storyboard */; };
+		B1EFC9752A7AC97C0092C876 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EFC9742A7AC97C0092C876 /* CartViewController.swift */; };
+		B1EFC9782A7AC9FF0092C876 /* AllProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EFC9772A7AC9FF0092C876 /* AllProductsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B1CA99D82A711480001A2C75 /* Bricks'nKicks Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bricks'nKicks Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10CD3052A89416900B99CA8 /* Bricks'nKicks Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Bricks'nKicks Store.app"; path = "/Users/stanciprian/Desktop/Bricks'nKicks Store/build/Debug-iphoneos/Bricks'nKicks Store.app"; sourceTree = "<absolute>"; };
+		B146D76C2A79550500947873 /* SneakerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakerCollectionViewCell.swift; sourceTree = "<group>"; };
+		B146D76E2A79846B00947873 /* SneakerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakerDetailViewController.swift; sourceTree = "<group>"; };
+		B15616D42A7A4FE400FA71F4 /* RandomSneakerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomSneakerCollectionViewCell.swift; sourceTree = "<group>"; };
+		B15DB4112A72CCAB00F27FDA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B15DB4172A72CD2900F27FDA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B1C06D7B2A82B20E000EBB37 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductCollectionViewCell.swift; path = ../../../../.Trash/ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		B1C661AE2A77E5C600D0C56B /* SneakersAPI.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SneakersAPI.json; sourceTree = "<group>"; };
+		B1C661B02A77E76E00D0C56B /* Sneaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sneaker.swift; sourceTree = "<group>"; };
+		B1C661B42A78121300D0C56B /* libboringssl.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libboringssl.tbd; path = usr/lib/libboringssl.tbd; sourceTree = SDKROOT; };
 		B1CA99DB2A711480001A2C75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1CA99DD2A711480001A2C75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B1CA99DF2A711480001A2C75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B1CA99E22A711480001A2C75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1CA99E42A711483001A2C75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1CA99E72A711483001A2C75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1CA99E92A711483001A2C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1EFC9742A7AC97C0092C876 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		B1EFC9772A7AC9FF0092C876 /* AllProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllProductsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,26 +51,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1C661B72A78127300D0C56B /* Crypto in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B12A07542A81595000181E3F /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				B1C661B02A77E76E00D0C56B /* Sneaker.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		B15616D62A7A539A00FA71F4 /* CollectionViewCell  */ = {
+			isa = PBXGroup;
+			children = (
+				B146D76C2A79550500947873 /* SneakerCollectionViewCell.swift */,
+				B15616D42A7A4FE400FA71F4 /* RandomSneakerCollectionViewCell.swift */,
+			);
+			path = "CollectionViewCell ";
+			sourceTree = "<group>";
+		};
+		B15616D72A7A53B800FA71F4 /* Home  */ = {
+			isa = PBXGroup;
+			children = (
+				B15DB4112A72CCAB00F27FDA /* HomeViewController.swift */,
+				B146D76E2A79846B00947873 /* SneakerDetailViewController.swift */,
+			);
+			path = "Home ";
+			sourceTree = "<group>";
+		};
+		B15616D92A7A540E00FA71F4 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B15DB4172A72CD2900F27FDA /* ProfileViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B1C661B32A78121200D0C56B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1C661B42A78121300D0C56B /* libboringssl.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B1CA99CF2A711480001A2C75 = {
 			isa = PBXGroup;
 			children = (
 				B1CA99DA2A711480001A2C75 /* Bricks'nKicks Store */,
-				B1CA99D92A711480001A2C75 /* Products */,
+				B1C661B32A78121200D0C56B /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		B1CA99D92A711480001A2C75 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B1CA99D82A711480001A2C75 /* Bricks'nKicks Store.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		B1CA99DA2A711480001A2C75 /* Bricks'nKicks Store */ = {
@@ -58,13 +113,36 @@
 			children = (
 				B1CA99DB2A711480001A2C75 /* AppDelegate.swift */,
 				B1CA99DD2A711480001A2C75 /* SceneDelegate.swift */,
-				B1CA99DF2A711480001A2C75 /* ViewController.swift */,
+				B12A07542A81595000181E3F /* DataManager */,
+				B15616D62A7A539A00FA71F4 /* CollectionViewCell  */,
+				B15616D72A7A53B800FA71F4 /* Home  */,
+				B1EFC9732A7AC90E0092C876 /* Products */,
+				B1EFC9762A7AC9810092C876 /* Cart */,
+				B15616D92A7A540E00FA71F4 /* Settings */,
 				B1CA99E12A711480001A2C75 /* Main.storyboard */,
-				B1CA99E42A711483001A2C75 /* Assets.xcassets */,
 				B1CA99E62A711483001A2C75 /* LaunchScreen.storyboard */,
+				B1CA99E42A711483001A2C75 /* Assets.xcassets */,
 				B1CA99E92A711483001A2C75 /* Info.plist */,
+				B1C661AE2A77E5C600D0C56B /* SneakersAPI.json */,
 			);
 			path = "Bricks'nKicks Store";
+			sourceTree = "<group>";
+		};
+		B1EFC9732A7AC90E0092C876 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1EFC9772A7AC9FF0092C876 /* AllProductsViewController.swift */,
+				B1C06D7B2A82B20E000EBB37 /* ProductCollectionViewCell.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		B1EFC9762A7AC9810092C876 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				B1EFC9742A7AC97C0092C876 /* CartViewController.swift */,
+			);
+			path = Cart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,8 +161,11 @@
 			dependencies = (
 			);
 			name = "Bricks'nKicks Store";
+			packageProductDependencies = (
+				B1C661B62A78127300D0C56B /* Crypto */,
+			);
 			productName = "Bricks'nKicks Store";
-			productReference = B1CA99D82A711480001A2C75 /* Bricks'nKicks Store.app */;
+			productReference = B10CD3052A89416900B99CA8 /* Bricks'nKicks Store.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,6 +180,7 @@
 				TargetAttributes = {
 					B1CA99D72A711480001A2C75 = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -111,7 +193,10 @@
 				Base,
 			);
 			mainGroup = B1CA99CF2A711480001A2C75;
-			productRefGroup = B1CA99D92A711480001A2C75 /* Products */;
+			packageReferences = (
+				B1C661B52A78127300D0C56B /* XCRemoteSwiftPackageReference "swift-crypto" */,
+			);
+			productRefGroup = B1CA99CF2A711480001A2C75;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -127,6 +212,7 @@
 			files = (
 				B1CA99E82A711483001A2C75 /* LaunchScreen.storyboard in Resources */,
 				B1CA99E52A711483001A2C75 /* Assets.xcassets in Resources */,
+				B1C661AF2A77E5C600D0C56B /* SneakersAPI.json in Resources */,
 				B1CA99E32A711480001A2C75 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +224,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1CA99E02A711480001A2C75 /* ViewController.swift in Sources */,
 				B1CA99DC2A711480001A2C75 /* AppDelegate.swift in Sources */,
+				B1EFC9752A7AC97C0092C876 /* CartViewController.swift in Sources */,
+				B15616D52A7A4FE400FA71F4 /* RandomSneakerCollectionViewCell.swift in Sources */,
+				B146D76D2A79550500947873 /* SneakerCollectionViewCell.swift in Sources */,
+				B1EFC9782A7AC9FF0092C876 /* AllProductsViewController.swift in Sources */,
+				B146D76F2A79846B00947873 /* SneakerDetailViewController.swift in Sources */,
+				B1C661B12A77E76E00D0C56B /* Sneaker.swift in Sources */,
+				B15DB4182A72CD2900F27FDA /* ProfileViewController.swift in Sources */,
 				B1CA99DE2A711480001A2C75 /* SceneDelegate.swift in Sources */,
+				B1C06D7C2A82B20E000EBB37 /* ProductCollectionViewCell.swift in Sources */,
+				B15DB4122A72CCAB00F27FDA /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,11 +379,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A8MXHZVCWN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Bricks'nKicks Store/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -303,6 +399,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stanCiprian.Bricks-nKicks-Store";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bricks'nKicks Store/Favorites/Bricks'nKicks Store-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,11 +411,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A8MXHZVCWN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Bricks'nKicks Store/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -331,6 +431,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stanCiprian.Bricks-nKicks-Store";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bricks'nKicks Store/Favorites/Bricks'nKicks Store-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -358,6 +459,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B1C661B52A78127300D0C56B /* XCRemoteSwiftPackageReference "swift-crypto" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-crypto.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B1C661B62A78127300D0C56B /* Crypto */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1C661B52A78127300D0C56B /* XCRemoteSwiftPackageReference "swift-crypto" */;
+			productName = Crypto;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B1CA99D02A711480001A2C75 /* Project object */;
 }

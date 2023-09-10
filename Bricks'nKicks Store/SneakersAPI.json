@@ -1,0 +1,196 @@
+{
+  "sneakers": [
+    {
+      "id": 1,
+      "brand": "Nike",
+      "model": "Air Jordan 1 Retro High OG “Volt Gold”",
+      "release_date": "2021-01-09",
+      "price": 169,
+      "currency": "USD",
+      "rating": 4.5,
+      "photo_url": "https://no.basketzone.net/zdjecia/2021/03/17/903/28/NIKE_AIR_JORDAN_1_RETRO_HIGH_OG_VOLT_GOLD-mini.jpg",
+      "sizes": ["US 7", "US 8", "US 9"],
+      "details": [
+        "Classic colorway",
+        "Limited edition release",
+        "Premium leather construction"
+      ]
+    },
+    {
+      "id": 2,
+      "brand": "Nike",
+      "model": "Air Jordan 6 Retro OG “Carmine”",
+      "release_date": "2021-02-13",
+      "price": 190,
+      "currency": "USD",
+      "rating": 4.8,
+      "photo_url": "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/bx6rmanjjizqnyapamka/air-jordan-6-retro-carmine.jpg",
+      "sizes": ["US 8", "US 9", "US 10"],
+      "details": [
+        "Iconic design",
+        "Original colorway",
+        "Visible Air cushioning"
+      ]
+    },
+    {
+      "id": 3,
+      "brand": "Nike",
+      "model": "Air Jordan 1 Retro High OG “University Blue”",
+      "release_date": "2021-03-06",
+      "price": 413,
+      "currency": "USD",
+      "rating": 4.6,
+      "photo_url": "https://cdn-images.farfetch-contents.com/15/95/78/34/15957834_30928142_1000.jpg",
+      "sizes": ["US 9", "US 10", "US 11"],
+      "details": [
+        "Classic colorway",
+        "University Blue accents",
+        "High-quality materials"
+      ]
+    },
+    {
+      "id": 4,
+      "brand": "Nike",
+      "model": "Air Jordan 5 Retro “Raging Bull”",
+      "release_date": "2021-04-10",
+      "price": 204,
+      "currency": "USD",
+      "rating": 4.7,
+      "photo_url": "https://cdn-images.farfetch-contents.com/16/65/48/15/16654815_32739150_1000.jpg",
+      "sizes": ["US 8", "US 9", "US 10"],
+      "details": [
+        "Classic colorway",
+        "Raging Bull theme",
+        "Premium suede upper"
+      ]
+    },
+    {
+      "id": 5,
+      "brand": "Nike",
+      "model": "Air Jordan 11 Retro Low “Legend Blue”",
+      "release_date": "2021-05-07",
+      "price": 225,
+      "currency": "USD",
+      "rating": 4.9,
+      "photo_url": "https://cdn-images.farfetch-contents.com/12/95/99/10/12959910_13486409_1000.jpg",
+      "sizes": ["US 7", "US 8", "US 9"],
+      "details": [
+        "Classic colorway",
+        "Low-top design",
+        "Iconic patent leather"
+      ]
+    },
+    {
+      "id": 6,
+      "brand": "Yeezy",
+      "model": "YEEZY BOOST 350 V2 “Mono Ice”",
+      "release_date": "2021-06-18",
+      "price": 280,
+      "currency": "USD",
+      "rating": 4.4,
+      "photo_url": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/053/438/536/original/743920_01.jpg.jpeg?action=crop&width=500",
+      "sizes": ["US 9", "US 10", "US 11"],
+      "details": [
+        "Mono Ice colorway",
+        "Primeknit upper",
+        "Boost cushioning"
+      ]
+    },
+    {
+      "id": 7,
+      "brand": "Nike",
+      "model": "Air Jordan 4 Retro “White Oreo”",
+      "release_date": "2021-07-03",
+      "price": 420,
+      "currency": "USD",
+      "rating": 4.7,
+      "photo_url": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/054/790/005/original/697107_01.jpg?action=crop&width=500",
+      "sizes": ["US 8", "US 9", "US 10"],
+      "details": [
+        "White Oreo colorway",
+        "Oreo-inspired midsole",
+        "Combination of leather and mesh"
+      ]
+    },
+    {
+      "id": 8,
+      "brand": "Nike",
+      "model": "Nike Dunk Low “Black/White”",
+      "release_date": "2021-08-01",
+      "price": 274,
+      "currency": "USD",
+      "rating": 4.6,
+      "photo_url": "https://cdn-images.farfetch-contents.com/16/40/35/69/16403569_31750946_600.jpg",
+      "sizes": ["US 8", "US 9", "US 10"],
+      "details": [
+        "Black and White colorway",
+        "Classic Dunk silhouette",
+        "Durable leather upper"
+      ]
+    },
+    {
+      "id": 9,
+      "brand": "Nike",
+      "model": "Air Jordan 4 Retro “Lightning”",
+      "release_date": "2021-09-28",
+      "price": 282,
+      "currency": "USD",
+      "rating": 4.8,
+      "photo_url": "https://sneakcenter.com/cdn/shop/products/1699903.webp?v=1678383176&width=640",
+      "sizes": ["US 7", "US 8", "US 9"],
+      "details": [
+        "Lightning Yellow colorway",
+        "Original 2006 release",
+        "Premium suede and mesh"
+      ]
+    },
+    {
+      "id": 10,
+      "brand": "Yeezy",
+      "model": "YEEZY BOOST 350 V2 “MX Oat”",
+      "release_date": "2021-10-23",
+      "price": 217,
+      "currency": "USD",
+      "rating": 4.5,
+      "photo_url": "https://bricksneakers.ro/wp-content/uploads/2022/12/Adidas-Yeezy-Boost-350-V2-MX-Oat-GW3773-Brick-Sneakers-1.jpg",
+      "sizes": ["US 9", "US 10", "US 11"],
+      "details": [
+        "MX Oat colorway",
+        "Primeknit upper",
+        "Distinctive side stripe"
+      ]
+    },
+    {
+      "id": 11,
+      "brand": "Nike",
+      "model": "Air Jordan 12 Retro “Royalty”",
+      "release_date": "2021-11-13",
+      "price": 246,
+      "currency": "USD",
+      "rating": 4.6,
+      "photo_url": "https://cdn-images.farfetch-contents.com/17/60/96/94/17609694_38677054_1000.jpg",
+      "sizes": ["US 8", "US 9", "US 10"],
+      "details": [
+        "Royalty-inspired colorway",
+        "Premium suede upper",
+        "Gold accents"
+      ]
+    },
+    {
+      "id": 12,
+      "brand": "Nike",
+      "model": "Air Jordan 11 Retro “Cool Grey”",
+      "release_date": "2021-12-11",
+      "price": 247,
+      "currency": "USD",
+      "rating": 4.7,
+      "photo_url": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/064/535/248/original/704157_01.jpg.jpeg?action=crop&width=500",
+      "sizes": ["US 7", "US 8", "US 9"],
+      "details": [
+        "Cool Grey colorway",
+        "Patent leather mudguard",
+        "Translucent outsole"
+      ]
+    }
+  ]
+}

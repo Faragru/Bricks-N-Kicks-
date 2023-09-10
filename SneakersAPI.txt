@@ -1,0 +1,124 @@
+{
+  "sneakers": [
+    {
+      "id": 1,
+      "brand": "Nike",
+      "model": "Air Jordan 1 Retro High OG “Volt Gold”",
+      "release_date": "2021-01-09",
+      "price": 169,
+      "currency": "USD",
+      "rating": 4.5,
+      "photo_url": "https://example.com/air_jordan_1_volt_gold.jpg"
+    },
+    {
+      "id": 2,
+      "brand": "Nike",
+      "model": "Air Jordan 6 Retro OG “Carmine”",
+      "release_date": "2021-02-13",
+      "price": 190,
+      "currency": "USD",
+      "rating": 4.8,
+      "photo_url": "https://example.com/air_jordan_6_carmine.jpg"
+    },
+    {
+      "id": 3,
+      "brand": "Nike",
+      "model": "Air Jordan 1 Retro High OG “University Blue”",
+      "release_date": "2021-03-06",
+      "price": 413,
+      "currency": "USD",
+      "rating": 4.6,
+      "photo_url": "https://example.com/air_jordan_1_university_blue.jpg"
+    },
+    {
+      "id": 4,
+      "brand": "Nike",
+      "model": "Air Jordan 5 Retro “Raging Bull”",
+      "release_date": "2021-04-10",
+      "price": 204,
+      "currency": "USD",
+      "rating": 4.7,
+      "photo_url": "https://example.com/air_jordan_5_raging_bull.jpg"
+    },
+    {
+      "id": 5,
+      "brand": "Nike",
+      "model": "Air Jordan 11 Retro Low “Legend Blue”",
+      "release_date": "2021-05-07",
+      "price": 225,
+      "currency": "USD",
+      "rating": 4.9,
+      "photo_url": "https://example.com/air_jordan_11_legend_blue.jpg"
+    },
+    {
+      "id": 6,
+      "brand": "Yeezy",
+      "model": "YEEZY BOOST 350 V2 “Mono Ice”",
+      "release_date": "2021-06-18",
+      "price": 280,
+      "currency": "USD",
+      "rating": 4.4,
+      "photo_url": "https://example.com/yeezy_boost_350_v2_mono_ice.jpg"
+    },
+    {
+      "id": 7,
+      "brand": "Nike",
+      "model": "Air Jordan 4 Retro “White Oreo”",
+      "release_date": "2021-07-03",
+      "price": 420,
+      "currency": "USD",
+      "rating": 4.7,
+      "photo_url": "https://example.com/air_jordan_4_white_oreo.jpg"
+    },
+    {
+      "id": 8,
+      "brand": "Nike",
+      "model": "Nike Dunk Low “Black/White”",
+      "release_date": "2021-08-01",
+      "price": 274,
+      "currency": "USD",
+      "rating": 4.6,
+      "photo_url": "https://example.com/nike_dunk_low_black_white.jpg"
+    },
+    {
+      "id": 9,
+      "brand": "Nike",
+      "model": "Air Jordan 4 Retro “Lightning”",
+      "release_date": "2021-09-28",
+      "price": 282,
+      "currency": "USD",
+      "rating": 4.8,
+      "photo_url": "https://example.com/air_jordan_4_lightning.jpg"
+    },
+    {
+      "id": 10,
+      "brand": "Yeezy",
+      "model": "YEEZY BOOST 350 V2 “MX Oat”",
+      "release_date": "2021-10-23",
+      "price": 217,
+      "currency": "USD",
+      "rating": 4.5,
+      "photo_url": "https://example.com/yeezy_boost_350_v2_mx_oat.jpg"
+    },
+    {
+      "id": 11,
+      "brand": "Nike",
+      "model": "Air Jordan 12 Retro “Royalty”",
+      "release_date": "2021-11-13",
+      "price": 246,
+      "currency": "USD",
+      "rating": 4.6,
+      "photo_url": "https://example.com/air_jordan_12_royalty.jpg"
+    },
+    {
+      "id": 12,
+      "brand": "Nike",
+      "model": "Air Jordan 11 Retro “Cool Grey”",
+      "release_date": "2021-12-11",
+      "price": 247,
+      "currency": "USD",
+      "rating": 4.7,
+      "photo_url": "https://example.com/air_jordan_11_cool_grey.jpg"
+    }
+  ]
+}

@@ -10,12 +10,26 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
+        var sneakers: [Sneaker] = [] 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
-    }
+            // Load data into the shared data source array
+            if let path = Bundle.main.path(forResource: "SneakersAPI", ofType: "json") {
+                do {
+                    let data = try Data(contentsOf: URL(fileURLWithPath: path))
+                    let jsonData = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any]
+                    if let sneakerData = jsonData?["sneakers"] as? [[String: Any]] {
+                        let decoder = JSONDecoder()
+                        sneakers = try sneakerData.map { try decoder.decode(Sneaker.self, from: JSONSerialization.data(withJSONObject: $0)) }
+                    }
+                } catch {
+                    print("Error decoding JSON: \(error)")
+                }
+            }
+            
+            return true
+        }
 
     // MARK: UISceneSession Lifecycle
 
