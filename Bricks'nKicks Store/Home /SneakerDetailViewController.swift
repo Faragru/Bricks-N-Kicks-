@@ -53,7 +53,7 @@ class SneakerDetailViewController: UIViewController {
             for (index, size) in sneaker.sizes.enumerated() {
                 sizeSelectionSegmentedControl.insertSegment(withTitle: "\(size)", at: index, animated: false)
             }
-            // Optionally, you can set the default selected size or handle selection events.
+            
             
             // Update other UI elements with the selected sneaker data
             sneakerNameLabel.text = sneaker.model

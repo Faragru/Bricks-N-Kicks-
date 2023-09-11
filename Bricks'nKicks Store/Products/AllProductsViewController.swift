@@ -7,19 +7,21 @@
 
 import UIKit
 
-class AllProductsViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+class AllProductsViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UISearchBarDelegate {
     
     @IBOutlet var ProductCollectionView: UICollectionView!
+    @IBOutlet var searchBar: UISearchBar!
     
     var sneakers: [Sneaker] = []   // Store all sneakers
+    var filteredSneakers: [Sneaker] = []   //Store all filtered sneakers
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        ProductCollectionView.register(ProductCollectionViewCell.self, forCellWithReuseIdentifier: "ProductCell")
-        
         ProductCollectionView.dataSource = self
-            ProductCollectionView.delegate = self
+        ProductCollectionView.delegate = self
+        searchBar.delegate = self
+        filteredSneakers = sneakers
         loadSneakerData()
     }
     
@@ -50,13 +52,11 @@ class AllProductsViewController: UIViewController, UICollectionViewDataSource, U
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ProductCell", for: indexPath) as! ProductCollectionViewCell
         let sneaker = sneakers[indexPath.item]
-        
-        // Configure the cell using the sneaker data
-   
-        
+
+        cell.configure(photoURL: sneaker.photoURL, name: sneaker.model, price: sneaker.price)
         return cell
     }
-    
+
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let selectedSneaker = sneakers[indexPath.item]
         
@@ -66,4 +66,24 @@ class AllProductsViewController: UIViewController, UICollectionViewDataSource, U
             navigationController?.pushViewController(detailViewController, animated: true)
         }
     }
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        // Trim leading and trailing whitespaces from the search text
+        let trimmedSearchText = searchText.trimmingCharacters(in: .whitespacesAndNewlines)
+        
+        // Check if the trimmed search text is empty
+        if trimmedSearchText.isEmpty {
+            // If it's empty, show all sneakers
+            filteredSneakers = sneakers
+        } else {
+            // Filter the sneakers based on the search text (case-insensitive)
+            filteredSneakers = sneakers.filter { $0.model.lowercased().contains(trimmedSearchText.lowercased()) }
+        }
+        
+        // Reload the collection view to reflect the filtered data
+        ProductCollectionView.reloadData()
+    }
+
 }
+
+

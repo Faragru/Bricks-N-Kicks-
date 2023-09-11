@@ -11,9 +11,9 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
     
     @IBOutlet var sneakerCollectionView: UICollectionView!
     @IBOutlet var randomSneakerCollectionView: UICollectionView!
+   
     
-    var sneakers: [Sneaker] = [] 
-
+    var sneakers: [Sneaker] = []
     var randomSneakers: [Sneaker] = []
     
     override func viewDidLoad() {
@@ -23,6 +23,7 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
         randomSneakerCollectionView.dataSource = self
         randomSneakerCollectionView.delegate = self
         loadSneakerData()
+        
     }
     
     func loadSneakerData() {
